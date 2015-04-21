@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>New phone gap app</title>
+    </head>
+    <body>
+        <button id="next">Get Time</button>
+        <button id="clear">Clear</button>
+        <div id="results"></div>
+        <script src="js/zepto.js"></script>
+        <script src="js/next.js"></script>
+        <script>
+        $('#next').click( function() {
+            next.doIt($('#results'));
+        });
+        $('#clear').click( function() {
+            $('#results').html('');
+        });
+        </script>
+    </body>
+</html>
